@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px grey solid;
+    padding-bottom: 1em;
+}
+
+.header button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
