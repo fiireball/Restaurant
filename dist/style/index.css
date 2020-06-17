@@ -14,3 +14,35 @@
 h1 {
     text-align: center;
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td span {
+    font-weight: lighter;
+}
+  
+td, th {
+    font-weight: bold;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    table {
+        width: 50%;
+    }
+    .table-container {
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+    }
+  }
